@@ -1,12 +1,12 @@
 # RFID Employee Attendance System with LPC2129
 
-This project implements an RFID-based employee attendance system using LPC2129 microcontroller, RFID technology, and an I2C 16x2 LCD display. It utilizes an RTC (Real-Time Clock) module for accurate timekeeping.
+This project implements an RFID-based employee attendance system using LPC2129 microcontroller, RFID technology, and an 16x2 LCD display. It utilizes an RTC (Real-Time Clock) module for accurate timekeeping.
 
 ## Features
 
 - RFID-based employee identification
 - Real-time clock functionality for accurate timekeeping
-- Display of time, date, and day on an I2C 16x2 LCD
+- Display of time, date, and day on an 16x2 LCD
 - Logging of employee entry and exit times
 - Supports both entry and exit actions
 - Database management for employee information
@@ -22,8 +22,8 @@ This project implements an RFID-based employee attendance system using LPC2129 m
    - SCL to P0.2 pin of LPC2129
    - SDA to P0.3 pin of LPC2129
 
-3. **16 x 2 LCD Display:**
-   - Connect the I2C lines (SDA, SCL) of the LCD to the corresponding pins of LPC2129 (as like previous voting machine project setup).
+3. **16 x 2 Display:**
+   - Connect the of the LCD to the corresponding pins of LPC2129 (as like previous voting machine project setup).
 
 ## Software Setup
 
@@ -45,7 +45,7 @@ This project implements an RFID-based employee attendance system using LPC2129 m
    - Power on the system and ensure all components are properly connected.
 
 2. **Programming:**
-   - Write and compile your code in Keil IDE, ensuring proper initialization and configuration of peripherals including UART, I2C, and RTC.
+   - Write and compile your code in Keil IDE, ensuring proper initialization and configuration of peripherals including UART, and RTC.
 
 3. **Serial Terminal Configuration:**
    - Configure the serial terminal on your Linux machine to communicate with the LPC2129 microcontroller via the DB9 cable.
@@ -54,7 +54,7 @@ This project implements an RFID-based employee attendance system using LPC2129 m
    - Scan an employee RFID card to register entry or exit. The RFID module will transmit the card data to the LPC2129 microcontroller.
 
 5. **LCD Display:**
-   - Monitor the I2C LCD display for real-time updates on employee attendance, time, and date.
+   - Monitor the LCD display for real-time updates on employee attendance, time, and date.
 
 6. **Data Logging:**
    - Ensure proper logging of entry and exit times in the database, updating the attendance log accordingly.
@@ -65,7 +65,7 @@ This project implements an RFID-based employee attendance system using LPC2129 m
 2. Write and compile your code in Keil IDE.
 3. Configure the serial terminal on your Linux machine to communicate with the LPC2129 microcontroller via the DB9 cable.
 4. Scan an employee RFID card to register entry or exit.
-5. Monitor the I2C LCD display for real-time updates on employee attendance.
+5. Monitor the LCD display for real-time updates on employee attendance.
 6. Review the attendance log in the database for further analysis.
 
 ## Contributing
