@@ -22,8 +22,8 @@ This project implements an RFID-based employee attendance system using LPC2129 m
    - SCL to P0.2 pin of LPC2129
    - SDA to P0.3 pin of LPC2129
 
-3. **I2C LCD Display:**
-   - Connect the I2C lines (SDA, SCL) of the LCD to the corresponding I2C pins of LPC2129 (as like previous voting machine project setup).
+3. **16 x 2 LCD Display:**
+   - Connect the I2C lines (SDA, SCL) of the LCD to the corresponding pins of LPC2129 (as like previous voting machine project setup).
 
 ## Software Setup
 
@@ -31,7 +31,7 @@ This project implements an RFID-based employee attendance system using LPC2129 m
    - Use Keil IDE 5 for software development and programming of the LPC2129 microcontroller.
 
 2. **Programming Language:**
-   - Write your code in C language to interface with RTC module, and I2C LCD display.
+   - Write your code in C language to interface with RTC module, and LCD display.
 
 3. **Compilation:**
    - Compile your code using the GCC compiler integrated with Keil IDE.
